@@ -1,4 +1,4 @@
-# 🌳 Daily Reflection Decision Tree (Advanced Version)
+# 🌳 Daily Reflection Decision Tree 
 
 ## 📌 Problem Statement
 The goal of this project is to design a **deterministic decision system** that analyzes a user's daily reflection inputs such as mood, productivity, and stress level, and provides structured feedback.
