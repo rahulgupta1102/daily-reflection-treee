@@ -1,20 +1,20 @@
-# 🌳 Daily Reflection Decision Tree 
+# Daily Reflection Decision Tree 
 
-## 📌 Problem Statement
+##  Problem Statement
 The goal of this project is to design a **deterministic decision system** that analyzes a user's daily reflection inputs such as mood, productivity, and stress level, and provides structured feedback.
 
 The system avoids randomness and ensures that the same input always produces the same output.
 
 ---
 
-## 🎯 Objective
+##  Objective
 - To create a structured daily reflection system  
 - To provide meaningful and consistent feedback  
 - To maintain interpretability using rule-based logic  
 
 ---
 
-## 📥 Inputs
+##  Inputs
 The system takes the following inputs:
 
 - **Mood** → good / neutral / bad  
@@ -23,9 +23,9 @@ The system takes the following inputs:
 
 ---
 
-## ⚙️ Approach
+## Approach
 
-### 🔹 1. Scoring-Based Deterministic Model
+###  1. Scoring-Based Deterministic Model
 Instead of only using basic if-else rules, this system assigns **weights (scores)** to each input:
 
 - Mood:
@@ -44,12 +44,12 @@ Instead of only using basic if-else rules, this system assigns **weights (scores
 
 ---
 
-### 🔹 2. Score Calculation
+###  2. Score Calculation
 All input scores are combined to generate a **final score**.
 
 ---
 
-### 🔹 3. Feedback Mapping
+###  3. Feedback Mapping
 The final score is mapped to feedback:
 
 - **Score ≥ 4** → Excellent day  
@@ -59,28 +59,28 @@ The final score is mapped to feedback:
 
 ---
 
-## 🔁 Why This is Deterministic?
+##  Why This is Deterministic?
 
 This system is deterministic because:
 - Each input has a predefined score  
 - The total score is calculated using fixed rules  
 - The feedback is mapped using fixed conditions  
 
-👉 Therefore, **same input → same score → same output**
+ Therefore, **same input → same score → same output**
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 
-- ✅ Deterministic (no randomness)  
-- ✅ Easy to understand and debug  
-- ✅ Structured and scalable  
-- ✅ Better than simple if-else logic  
-- ✅ Provides consistent feedback  
+-  Deterministic (no randomness)  
+-  Easy to understand and debug  
+-  Structured and scalable  
+-  Better than simple if-else logic  
+-  Provides consistent feedback  
 
 ---
 
-## 💻 Example Output
+##  Example Output
 
 **Input:**
 **Output:**
@@ -92,5 +92,5 @@ This project demonstrates how a **rule-based deterministic system** can be enhan
 
 ---
 
-## 👨‍💻 Author
+##  Author
 Rahul Gupta
